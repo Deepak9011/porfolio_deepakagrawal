@@ -1,0 +1,18 @@
+.flotingdiv{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    box-shadow: var(--boxShadow);
+    border-radius: 17px;
+    align-items: center;
+    height: 4.5rem;
+    padding: 0 8px 0 0;
+}
+.flotingdiv>img{
+    transform: scale(0.4);
+}
+.flotingdiv>span{
+    font-family: sans-serif;
+    font-size: 16px;   
+    color: black;
+}

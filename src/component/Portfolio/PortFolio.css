@@ -1,0 +1,126 @@
+.portfolio {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+.portfolio span:nth-of-type(1) {
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.portfolio span:nth-of-type(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.mern {
+  border: 1px dotted var(--orange);
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: 0;
+  box-shadow: var(--boxShadow);
+  background: rgba(255, 255, 255, 0.26);
+  align-items: center;
+}
+.mern:hover {
+  transition: all ease 0.5s;
+  transform: scale(1.04);
+}
+.mern > h3 {
+  text-align: center;
+  font-weight: bold;
+  color: var(--orange);
+}
+.mern p:nth-of-type(1) {
+  font-size: 0.6rem;
+  font-weight: bolder;
+  color: rgb(78, 77, 77);
+  margin: 4px 0 0 9px;
+}
+.mern p:nth-of-type(2) {
+  font-size: 0.5rem;
+  font-weight: bolder;
+  color: rgb(110, 110, 110);
+  margin: 4px 0 20px 9px;
+  word-spacing: 0.1rem;
+}
+.mern p:nth-of-type(3) {
+  font-size: 0.47rem;
+  font-weight: bolder;
+  color: rgb(53, 52, 52);
+  margin: 4px 0 20px 9px;
+  word-spacing: 0.2rem;
+  background: #eff1f1;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.5rem;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+.projects > div {
+  width: 13rem;
+  border: 1px solid red;
+  margin: 1rem;
+  padding: 20px;
+  box-shadow: var(--boxShadow);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.26);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.projects > div:hover {
+  transition: all ease 0.5s;
+  transform: scale(1.1);
+}
+.projects > div > h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+.projects > div p:nth-of-type(1) {
+  font-size: 0.6rem;
+  font-weight: bolder;
+  color: rgb(78, 77, 77);
+  margin: 4px 0 0 9px;
+}
+.projects > div p:nth-of-type(2) {
+  font-size: 0.5rem;
+  font-weight: bolder;
+  color: rgb(110, 110, 110);
+  margin: 4px 0 20px 9px;
+  word-spacing: 0.1rem;
+}
+.projects > div p:nth-of-type(3) {
+  font-size: 0.47rem;
+  font-weight: bolder;
+  color: rgb(53, 52, 52);
+  margin: 4px 0 20px 9px;
+  word-spacing: 0.2rem;
+  background: #eff1f1;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.portfolio img {
+  width: 100%;
+  filter: drop-shadow(-12px 15px 13px rbga(0, 0, 0, 0.25));
+  border-radius: 19px;
+  border: 1px solid var(--orange);
+  max-height: 50vh;
+}
+.button a {
+  text-decoration: none;
+  font-size: 0.6rem;
+}
+
+@media screen and (max-width: 680px) {
+  .portfolio {
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+  }
+}

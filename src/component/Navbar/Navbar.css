@@ -1,0 +1,90 @@
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+.n-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.n-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.n-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+.n-list{
+    flex: 10;
+}
+.n-list>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    list-style-type: none;
+    cursor: pointer;
+}
+.n-list>ul>li:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
+.n-button{
+    flex: 2;
+}
+.mobile-menu-btn{
+    display: none;
+}
+
+
+
+@media screen and (max-width:680px){
+    .n-list{
+        display: none;
+    }
+    .n-button{
+        display: none;
+    }
+    .n-list-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: var(--orange);
+        left: 0;
+        top: 5rem;
+        transition: all 0.2s ease-out;
+        transform: scale(100%);
+        width: 120%;
+        margin-left: -20px;
+        z-index: 10;
+    }
+    .n-right  ul  li{
+        margin-top: 1rem;
+        color: white;
+        text-align: center;
+        padding: 0.4rem 0.3rem;
+        margin-left: -1rem;
+        margin-bottom: 0.3rem;
+        width: 100%;
+        list-style: none;
+    }
+    .mobile-menu-btn{
+        display: block;
+        position: absolute;
+        font-size: 2rem;
+        width: 2.5rem;
+        color:var(--black);
+        border: none;
+        outline: none;
+        right: 1rem;
+        top:1rem;
+        cursor: pointer;
+    }
+}
