@@ -4,7 +4,7 @@ import Card from "../Card/Card";
 import HeartEmozi from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
-import Resume from "./resume_removed.pdf";
+import Resume from "./CV01Page_0801CS211034_BT_CS_Deepak_Agrawal.pdf";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";

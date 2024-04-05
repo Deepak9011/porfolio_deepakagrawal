@@ -11,17 +11,17 @@ const Footer = () => {
     <div className="footer">
       <img src={wave} alt="" style={{ width: "100%" }} />
       <div className="footer-content">
-        <span>jaiswalabhi0102@gmail.com</span>
+        <span>deepakagrawal9011@gmail.com</span>
         <div className="f-icons">
           <a
-            href="https://www.linkedin.com/in/abhishek-jaiswal-b1622721a/"
+            href="https://www.linkedin.com/in/deepakagrawal90/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <LinkedIn />
           </a>
           <a
-            href="https://github.com/Abhishek572002"
+            href="https://github.com/Deepak9011"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
         <div className="warnings">
           <span>
-            All rights reserved to Abhishek_Jaiswal || Made with React,SwiperJS
+            All rights reserved to Deepak Agrawal || Made with React
             and Love
           </span>
         </div>

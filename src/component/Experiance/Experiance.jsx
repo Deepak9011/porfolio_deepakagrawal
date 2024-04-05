@@ -5,17 +5,17 @@ const Experiance = () => {
   return (
     <div className="experiance" id="Experiance">
       <div className="achivement">
-        <div className="circle">1+</div>
-        <span>years</span>
-        <span>Experiance</span>
+        <div className="circle">3</div>
+        <span>Month</span>
+        <span>Intership Experiance</span>
       </div>
       <div className="achivement">
-        <div className="circle">10+</div>
-        <span>completed</span>
+        <div className="circle">2+</div>
         <span>Projects</span>
+        <span>Completed</span>
       </div>
       <div className="achivement">
-        <div className="circle">O.S</div>
+        <div className="circle">1</div>
         <span>companies</span>
         <span>Works</span>
       </div>
