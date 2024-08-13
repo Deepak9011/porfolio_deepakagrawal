@@ -40,8 +40,8 @@ const Services = () => {
         >
           <Card
             emozi={HeartEmozi}
-            heading={"Fron-End"}
-            detail={"Figma,Photoshop,Html , CSS , JavaScrip"}
+            heading={"Frontend Development"}
+            detail={"Figma, Html, CSS, Java-Scrip"}
           />
         </motion.div>
         <motion.div
@@ -52,8 +52,8 @@ const Services = () => {
         >
           <Card
             emozi={Glasses}
-            heading={"Backend"}
-            detail={`Node JS,Django,PHP`}
+            heading={"Backend Development"}
+            detail={`Node JS,Django, Java`}
           />
         </motion.div>
         <motion.div
@@ -62,7 +62,7 @@ const Services = () => {
           transition={transition}
           style={{ left: "12rem", top: "18rem" }}
         >
-          <Card emozi={Humble} heading={"Database"} detail={`MySql`} />
+          <Card emozi={Humble} heading={"Database Management"} detail={`MySql`} />
         </motion.div>
         <div
           className="blur s-blur2"

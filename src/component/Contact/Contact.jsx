@@ -51,16 +51,16 @@ const Contact = () => {
             type="text"
             name="user_name"
             className="user"
-            placeholder="Name"
+            placeholder="Full Name"
           />
           <input
             type="text"
             name="user_email"
             className="user"
-            placeholder="Email"
+            placeholder="Email Address"
           />
-          <textarea name="massage" className="user" placeholder="Massage" />
-          <input type="submit" value="send" className="button" />
+          <textarea name="message" className="user" placeholder="Message" />
+          <input type="submit" value="Send" className="button" />
           <span>{done && "Thanks for Contacting Me"}</span>
           <div
             className="blur c-blur1"

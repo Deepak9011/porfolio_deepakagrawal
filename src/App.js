@@ -4,7 +4,6 @@ import Intro from "./component/intro/Intro";
 import Services from "./component/Services/Services";
 import Experiance from "./component/Experiance/Experiance";
 import Works from "./component/Works/Works";
-import Portfolio from "./component/Portfolio/Portfolio";
 import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer/Footer";
 import { themeContext } from "./Context";
@@ -25,7 +24,6 @@ function App() {
       <Services />
       <Experiance />
       <Works />
-      {/* <Portfolio /> */}
       <Contact />
       <Footer />
     </div>
